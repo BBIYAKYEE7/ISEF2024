@@ -1,0 +1,78 @@
+@import url('https://cdn.jsdelivr.net/gh/sun-typeface/SUIT/fonts/variable/woff2/SUIT-Variable.css');
+
+@font-face {
+  font-family: 'SUIT-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.App {
+  font-family: 'SUIT';
+  text-align: center;
+  background-color: #C7CAD0;
+  align-items: center;
+}
+
+body {
+  background-color: #C7CAD0;
+  font-family: 'SUIT-Regular';
+}
+
+.recharts-legend-item-text{
+  font-family: SUIT;
+  font-weight: 500;
+}
+
+.App-logo {
+  height: 7vmin;
+  pointer-events: none;
+  margin-top: 10px;
+  z-index: 999;
+}
+
+.logo-text{
+  font-size: 25.42px;
+  margin-top: -55px;
+  margin-left: -1370px;
+  font-weight: 600;
+  z-index: 999;
+}
+
+.recharts-cartesian-axis-ticks{
+  font-family: SUIT;
+  font-weight: 500;
+}
+
+.recharts-default-legend{
+  font-family: SUIT;
+  font-weight: 300;
+}
+
+.contents{
+  width: 98%;
+  height: 93vh;
+  flex-shrink: 0;
+  border-radius: 58px 58px 48px 48px;
+  background: #F6F6F6;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+  margin-top: 40px;
+  box-shadow: 0px 7px 7px #8a8e91;
+}
+
+.App-header {
+  position: absolute;
+  top: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  border-radius: 46.5px;
+  background-color: #FFFFFF;
+  width: 96%;
+  height: 93px;
+  margin-top: 20px;
+  z-index: 6;
+}
