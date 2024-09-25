@@ -81,3 +81,5 @@ function MobilePage() {
 }
 
 export default MobilePage;
+
+// Code with passion of BBIYAKYEE7
