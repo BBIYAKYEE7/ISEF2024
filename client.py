@@ -37,3 +37,5 @@ while True:
     }
     pusher_client.trigger('my-channel', 'my-event', data)
     time.sleep(1)  # Delay for 0.4 second5
+
+#Code with passion of BBIYAKYEE7
